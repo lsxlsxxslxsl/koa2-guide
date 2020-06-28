@@ -1,23 +1,26 @@
 {
-  "name": "koa2-tutorial",
+  "name": "hapi-guide",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "repository": "https://github.com/lsxlsxxslxsl/koa2-guide.git",
+  "author": "liusixin <fordreamxkhl@163.com>",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
-    "ip": "^1.1.5",
-    "koa": "^2.5.1",
-    "koa-bodyparser": "^4.2.1",
-    "koa-nunjucks-2": "^3.0.2",
-    "koa-router": "^7.4.0",
-    "koa-static": "^5.0.0",
-    "log4js": "^2.10.0",
-    "nodemon": "^1.17.5",
-    "nunjucks": "^3.1.3"
+    "env2": "^2.2.2",
+    "hapi": "16",
+    "hapi-auth-jwt2": "7",
+    "hapi-pagination": "^4.0.0",
+    "hapi-swagger": "7",
+    "inert": "4",
+    "joi": "13",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "package": "^1.0.1",
+    "sequelize": "^6.2.3",
+    "vision": "4"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.1.0"
   }
 }
